@@ -1,0 +1,20 @@
+Best F1 macro:
+camembert-large-finetuned-repnum_wl-rua_wl_3_classes withpast_sentencecouple_contradictionshare_metrics.log 0.30000000000000004 0.26344688705213315: 0.4683160039285395
+camembert-large-finetuned-rua_wl_3_classes removepast_sentencewise_contradictionshare_metrics.log 0.20279838860126276 0.4: 0.4664424446262461
+camembert-large-finetuned-xnli_fr_3_classes-finetuned-repnum_wl-rua_wl_3_classes withpast_sentencecouple_contradictionshare_metrics.log 0.2862195601813371 0.30000000000000004: 0.4644534749076927
+
+Best precision macro for label 0:
+camembert-large-finetuned-xnli_fr_3_classes withpast_proposalwise_metrics.log: 0.7647058823529411 (Recall = 0.2765957446808511)
+camembert-large-finetuned-xnli_fr_3_classes removepast_proposalwise_metrics.log: 0.7419354838709677 (Recall = 0.24468085106382978)
+camembert-large-finetuned-xnli_fr_3_classes removepast_sentencecouple_contradictionshare_metrics.log 0.06966033936604532 0.2: 0.6666666666666666 (Recall = 0.2127659574468085)
+
+Best precision macro for label 1:
+camembert-large-finetuned-repnum_wl-rua_wl_3_classes withpast_sentencewise_contradictionshare_metrics.log 0.30000000000000004 0.2578373998403549: 0.8181818181818182 (Recall = 0.24324324324324326)
+camembert-large-finetuned-repnum_wl-rua_wl_3_classes removepast_sentencewise_contradictionshare_metrics.log 0.30000000000000004 0.2633185425260731: 0.7142857142857143 (Recall = 0.2702702702702703)
+camembert-large-finetuned-repnum_wl-rua_wl_3_classes removepast_sentencewise_contradictionshare_metrics.log 0.2008693292523276 0.1: 0.625 (Recall = 0.2702702702702703)
+
+Best precision macro for label 2:
+camembert-large-finetuned-rua_wl_3_classes removepast_sentencecouple_contradictionshare_metrics.log 0.31039315462112427 0.2: 0.725 (Recall = 0.26851851851851855)
+camembert-large-finetuned-rua_wl_3_classes removepast_sentencecouple_contradictionshare_metrics.log 0.31039315462112427 0.1700115203857422: 0.7142857142857143 (Recall = 0.23148148148148148)
+camembert-large-finetuned-rua_wl_3_classes removepast_sentencecouple_contradictionshare_metrics.log 0.30000000000000004 0.1700115203857422: 0.7142857142857143 (Recall = 0.23148148148148148)
+
